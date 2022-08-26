@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>LOAN CALCULATOR</title>
+</head>
+<body>
+  <div class="parent">
+   
+      <div class="container">
+         <div class="input-fields">
+          <form>
+                  <div class="amount">
+                    <h1>Loan Calculator</h1>
+                    <label for="Amount" class="amount-label">Amount</label>
+                    <input type="number" class="amount-input" placeholder="input  amount here ">
+                  </div>
+                  <div class="years">
+                    <label for="Amount" class="years-label">Years</label>
+                    <input type="number" class="years-input" placeholder="input years here ">
+                  </div>
+                  <div class="interest">
+                    <label for="interest" class="interest-label">Interest</label>
+                    <input type="number" class="interest-input" placeholder="input interest here ">
+                  </div>
+                  <input type="button" value="Calculate" class ="btn">
+          </form>
+         </div>
+         <div class="loader">
+          <!-- loader -->
+         </div>
+         <div class="results">
+          <h1>Amount expected</h1>
+          <div class="amount">
+            <label for="amount-year" class="amount-year">Yearly Payment</label>
+            <input type="number" class="amount-input-year">
+          </div>
+          <div class="amount">
+            <label for="amount-month" class="amount-month">Monthly Payment</label>
+            <input type="number" class="amount-input-month">
+          </div>
+         </div>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: "open sans-serif", "Helvetica Neue",
+  line-height: 1.1;
+}
+.parent{
+  display:flex;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+  width:500px;
+  background-color:#f4f4f4;
+}
+label{
+  display:block;
+  text-align:left;
+}
+input{
+  display:block;
+  width:100%;
+  padding:0.3rem;
+  margin:0.3rem;
+}
+::placeholder{
+  font-size:10px;
+  text-align:center;
+}
+.btn {
+  border:none;
+  background:blue;
+  color:#fff;
+}
+h1{
+  font-size:32px;
+  font-family:Arial;
+  display:block;
+}
